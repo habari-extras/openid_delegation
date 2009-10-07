@@ -2,7 +2,6 @@
 
 
 class OpenID_Delegation extends Plugin {
-	const VERSION= '0.5-0.1';
 
 	private $config= array();
 
