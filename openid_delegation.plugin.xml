@@ -3,9 +3,10 @@
 	<name>OpenID Delegation</name>
 	<license url="http://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</license>
 	<author url="http://mikelietz.org/">Mike Lietz</author>
-	<version>0.1</version>
+	<version>1.0</version>
 	<url>http://mikelietz.org/code</url>
 	<description><![CDATA[Enables site address to be used as a OpenID identifier, when using a third-party OpenID provider.]]></description>
 	<copyright>2009</copyright>
-	<help><value><![CDATA[Once configured, OpenID tags will be added to your headers as long as your theme calls <code>&lt;?php $theme->header(); ?&gt;</code>.]]></value></help>
+	<help><value><![CDATA[Once configured, OpenID tags will be added to your headers as long as your theme echoes <code>&lt;?php echo $theme->header(); ?&gt;</code>.]]></value></help>
+	<guid>DC735D26-9021-11DD-B91C-207A56D89593</guid>
 </pluggable> 
